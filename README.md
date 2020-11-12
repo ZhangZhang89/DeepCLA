@@ -17,7 +17,7 @@ pip install matplotlib
 pip install scikit-learn
 pip install tensorflow
 ```
-* If you want to run on a GPU, you will also need to install [CUDA](https://developer.nvidia.com/cuda-downloads) and [cuDNN](https://developer.nvidia.com/cudnn), please refer to their websites for corresponding versions. You will need to uninstall the previous version of Tensorflow and install the corresponding Tensorflow-GPU version, the installation form as follows:
+* If you want to run on a GPU, you will need to install [CUDA](https://developer.nvidia.com/cuda-downloads) and [cuDNN](https://developer.nvidia.com/cudnn), please refer to their websites for corresponding versions. Then, you need to uninstall the previous version of Tensorflow and install the corresponding Tensorflow-GPU version, the installation form as follows:
 ```
 pip install tensorflow-gpu == 'your version'
 ```
