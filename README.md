@@ -19,14 +19,15 @@ open cmd in windows or terminal in Linux, then cd to the DeepCLA-master/Codes fo
 </br>`python predict.py  -input [custom predicting data in txt format]  -threshold [threshold value]  -output [predicting results in csv format]`  
 
 </br>**Example:**
-</br>`python predict.py -input ../Codes/Example.txt -threshold 0.5 -output ../Codes/Results.csv`
+</br>`python predict.py -input ../Data/Example.txt -threshold 0.5 -output ../Data/Results.csv`
 </br>-input and -threshold are required parameters, while -output is optional parameter. Prediction results will show in the cmd or terminal. If you don't want to save results, you need not input -output.
 </br>**Example:**
-</br>`python predict.py -input ../Codes/example.txt -threshold 0.5`
+</br>`python predict.py -input ../Data/example.txt -threshold 0.5`
 
 </br>**For details of -input,-threshold and -output, run:**
 </br>`python predict.py -h`
 
-
+# Announcements
+* If the best_model fails to be unloaded after downloading, it can be downloaded separately and then unloaded into a folder containing predict.py.
 * If you want to use the model to predict your test data, you must prepared the test data as a txt format. Users can refer to the example.txt under the Codes folder. Also of note, each protein name should be added by '>', otherwise the program will occur error.
 * To save the prediction results, the -output should be saved as an csv file.
