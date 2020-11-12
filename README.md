@@ -1,5 +1,5 @@
 # DeepCLA
-DeepCLA uses a deep learning apprach to predict clathrin, which is implemented by deep learning library Keras and Tensorflow backend. It allows users to run programs using specified protein sequences for clathrin prediction.
+DeepCLA uses a deep learning apprach to predict clathrin, which is implemented by deep learning library Tensorflow backend. It allows users to run programs using specified protein sequences for clathrin prediction.
 
 # Requirement
 ```
@@ -21,12 +21,12 @@ pip install tensorflow
 ```
 pip install tensorflow-gpu == 'your version'
 ```
-* If you meet an error after operating improt tensorflow, the specific contents are as follows:
+* If you meet an error after operating import tensorflow, the specific contents are as follows:
 
 FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'._np_quint8 = np.dtype([("quint8", np.uint8, 1)]). That's probably because the version of numpy is too high and not compatible with Tensorflow, you need to uninstall numpy and reinstall the lower version.
 
 # Running DeepCLA
-open cmd in windows or terminal in Linux, then cd to the DeepCLA-master/Codes folder which contains predict.py
+Open cmd in windows or terminal in Linux, then cd to the DeepCLA-master/Codes folder which contains predict.py
 </br>**For clathrin prediction using our model, run:**
 </br>`python predict.py  -input [custom predicting data in txt format]  -threshold [threshold value]  -output [predicting results in csv format]`  
 
@@ -40,6 +40,6 @@ open cmd in windows or terminal in Linux, then cd to the DeepCLA-master/Codes fo
 </br>`python predict.py -h`
 
 # Announcements
-* If the best_model fails to be unloaded after downloading, it can be downloaded separately and then unloaded into a folder containing predict.py.
+* If the best_model fails to be unzip after downloading, it can be downloaded separately and then unzip into the folder which contains predict.py.
 * If you want to use the model to predict your test data, you must prepare the test data as a txt format. Users can refer to the Example.txt under the Codes folder. Also of note, each protein name should be added by '>', otherwise the program will occur error.
 * To save the prediction results, the -output should be saved as a csv file.
