@@ -22,7 +22,7 @@ open cmd in windows or terminal in Linux, then cd to the DeepCLA-master/Codes fo
 </br>`python predict.py -input ../Data/Example.txt -threshold 0.5 -output ../Data/Results.csv`
 </br>-input and -threshold are required parameters, while -output is optional parameter. Prediction results will show in the cmd or terminal. If you don't want to save results, you need not input -output.
 </br>**Example:**
-</br>`python predict.py -input ../Data/example.txt -threshold 0.5`
+</br>`python predict.py -input ../Data/Example.txt -threshold 0.5`
 
 </br>**For details of -input,-threshold and -output, run:**
 </br>`python predict.py -h`
