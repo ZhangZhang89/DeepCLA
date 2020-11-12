@@ -3,7 +3,7 @@ DeepCLA uses a deep learning apprach to predict clathrin, which is implemented b
 
 # Requirement
 ```
-numpy>=1.4.5
+numpy>=1.14.5
 backend==tensorflow
 ```
 # Installation
@@ -22,6 +22,7 @@ pip install tensorflow
 pip install tensorflow-gpu == 'your version'
 ```
 * If you meet an error after operating improt tensorflow, the specific contents are as follows:
+
 FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'._np_quint8 = np.dtype([("quint8", np.uint8, 1)]). That's probably because the version of numpy is too high and not compatible with Tensorflow, you need to uninstall numpy and reinstall the lower version.
 
 # Running DeepCLA
