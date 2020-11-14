@@ -40,6 +40,6 @@ Open cmd in windows or terminal in Linux, then cd to the DeepCLA-master/Codes fo
 </br>`python predict.py -h`
 
 # Announcements
-* If the best_model fails to be unzip after downloading, it can be downloaded separately and then unzip into the folder which contains predict.py.
+* If the best_model fails to be unzipped after downloading, it can be downloaded separately and then unzipped into the folder which contains predict.py.
 * If you want to use the model to predict your test data, you must prepare the test data as a txt format. Users can refer to the Example.txt under the Codes folder. Also of note, each protein name should be added by '>', otherwise the program will occur error.
 * To save the prediction results, the -output should be saved as a csv file.
